@@ -11,6 +11,7 @@ class SiswaController extends Controller
 {
     public function show_register()
     {
+        // return redirect()->route('login')->with('msg','aaaaa');
         return view('register_siswa');
     }
 
@@ -63,7 +64,7 @@ class SiswaController extends Controller
 
         // dd($cre);
 
-        return redirect()->route('login')->with('msg', 'pendaftaran telah berhasil silahkan masuk dengan mengunakan akun yang telah di buat');
+        return redirect()->route('login')->with('msg','aaaaa');
     }
 
 
